@@ -5,8 +5,8 @@ import datetime
 
 def test_add():
     # Given: I want to add a to-do with a date
-    text = "Lorem ipsum"
     date = "2023-09-02"
+    text = "Lorem ipsum"
 
     # When: I add the item
     helper.add(text, date)
