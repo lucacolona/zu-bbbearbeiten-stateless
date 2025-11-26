@@ -2,6 +2,8 @@ import helper
 from flask import Flask, request, Response, render_template, redirect, url_for
 app = Flask(__name__)
 
+# Uebergabe an Index.html
+# Definition von Routes
 @app.route("/")
 def index():
     items = helper.get_all()
