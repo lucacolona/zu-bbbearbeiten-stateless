@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zu-bbbearbeiten-stateless"
+version = "0.1.0"
+description = "Stateless Python Demo-App für DevOps"
+requires-python = ">=3.13"
+
+[tool.setuptools]
+py-modules = ["main", "helper"]
